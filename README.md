@@ -68,7 +68,7 @@ store.dispatch(increaseCount());
 
 Ok, so in the above lines of code we define a function called __increaseCount()__ whose job it is to return an action. Then we execute the __increaseCount()__ function, who returns that action, and we dispatch that action to the store. If you think that this is equivalent to `store.dispatch({ type: 'INCREASE_COUNT' })`, you are right.  
 
-We prefer wrapping our actions in a function, because oftentimes our actions have some parts that will need to change, and a function comes in handy.  For example:
+We prefer wrapping our actions in a function, because often times our actions have some parts that will need to change, and a function comes in handy.  For example:
 
 ```javascript
 function addTodo(todo) {
