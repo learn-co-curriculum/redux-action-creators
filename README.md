@@ -8,13 +8,13 @@ In this lesson, we will discuss:
 
 Actions are just **Plain Old JavaScript Objects** (POJOs), but that doesn't mean
 we should ignore them. In this section, we'll discuss the properties of actions,
-and how to use functions to create actions.
+and how to use functions to create them.
 
 # Purpose of Actions
 
 So as you know, we've been dispatching actions to our store to indicate what
 changes to make to our state. In this way, actions almost feel like the request 
-object or the parameters hash that are used in Ruby on Rails.  
+object or parameters hash used in Ruby on Rails. 
 
 In __Rails__, a user clicking on a link kicks off a request, and that request is
 ultimately passed to the controller, which is responsible for changing the
